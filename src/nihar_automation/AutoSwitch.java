@@ -26,6 +26,7 @@ public class AutoSwitch {
             default:
                 System.out.println("Invalid browser name entered.");
         }
+        System.out.println("Nihar");
 
     }
 }
