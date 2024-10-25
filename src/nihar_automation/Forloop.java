@@ -26,6 +26,12 @@ public class Forloop {
 //        System.out.println("Sum of elements: " + sum);
 
 
+        //git add .
+        //git commit -m "your message"
+        //git push
+        //git status
+
+
 
 
     }
