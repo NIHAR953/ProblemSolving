@@ -19,6 +19,7 @@ public class ArrayPractise {
 //        {
 //            System.out.println(k);
 //        }
+
         //Q.1 Reverse an Array.
 
 //        for (int i:arr){
@@ -27,6 +28,7 @@ public class ArrayPractise {
 //        for (int j=arr.length-1;j>=0;j--){
 //            System.out.print(arr[j]);
 //        }
+
         //Q.2 Find the maximum value in array.
 
 //        int max=arr[0];
@@ -37,6 +39,29 @@ public class ArrayPractise {
 //                System.out.println(max);
 //            }
 //        }
+
+        //Q.3 Sum of each element in Array.
+//
+//        int sum=0;
+//        for (int k=0;k<+arr.length;k++){
+//            sum+=arr[k];
+//        }
+//        System.out.println("Sum of the all element in this array is: "+sum);
+
+        //Q.4 Find the Second  largest value in the array List.
+
+        int first=Integer.MIN_VALUE;
+        int second=Integer.MIN_VALUE;
+        for (int l=0;l<arr.length;l++){
+            if (arr[l]>first){
+                second=first;
+                first=arr[l];
+            }else if (arr[l]>second && arr[l] != first ){
+                second=arr[l];
+            }
+            System.out.print("Second largest number is : "+second);
+        }
+
 
 
 
