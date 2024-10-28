@@ -27,22 +27,32 @@ public class ArrayDemo {
 //        {
 //            arr1[i] = sc.nextInt();
 //        }
-//
+        //for each loop used here
 //        for(int i: arr1)
 //            System.out.println(i);
 //
 //
 //
 
-        int arr[] = new int[3];
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter 3 numbers");
-        for(int i=0;i<arr.length;i++)
-            arr[i] = sc.nextInt();
+//        int arr[] = new int[3];
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter 3 numbers");
+//        for(int i=0;i<arr.length;i++)
+//            arr[i] = sc.nextInt();
+//
+//       //for each loop used here for printing the array
+//        for(int k:arr)
+//            System.out.println(k);
 
-
-        for(int k:arr)
-            System.out.println(k);
+//        Scanner sc =new Scanner(System.in);
+//        System.out.print("enter the elements of array: ");
+//        int [] arr45=new int[2];
+//        for (int i=0;i<arr45.length;i++){
+//            arr45[i]= sc.nextInt();
+//        }
+//        for (int i:arr45){
+//            System.out.println(i);
+//        }
 
 
     }
